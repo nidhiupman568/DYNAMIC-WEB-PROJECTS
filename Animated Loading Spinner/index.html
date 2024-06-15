@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMATED LOADING SPINNER - BY NIDHI UPMAN</title>
+
+    <style>
+      .spineer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .spineer {
+        width: 40px;
+        height: 40px;
+        border: 4px solid white;
+        border-top: 4px solid #3498db;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <div>
+    <center>
+      <h1>ANIMATED LOADING SPINNER - BY NIDHI UPMAN</h1>
+    </center>
+  </div>
+  <body>
+    <div class="spineer-container">
+      <div class="spineer"></div>
+    </div>
+  </body>
+</html>
